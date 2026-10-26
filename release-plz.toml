@@ -1,0 +1,6 @@
+[workspace]
+# Creates a GitHub release next to every crates.io release.
+git_release_enable = true
+
+# Keeps CHANGELOG.md up to date from the commits since the last release.
+changelog_update = true

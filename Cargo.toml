@@ -8,7 +8,14 @@ repository = "https://github.com/baszalmstra/resolvo-cargo"
 readme = "README.md"
 keywords = ["cargo", "lockfile", "resolver", "resolvo", "dependencies"]
 categories = ["development-tools", "development-tools::cargo-plugins"]
-exclude = ["/corpus", "/pixi.toml", "/pixi.lock", "/rust-toolchain.toml"]
+exclude = [
+    "/.github",
+    "/corpus",
+    "/pixi.lock",
+    "/pixi.toml",
+    "/release-plz.toml",
+    "/rust-toolchain.toml",
+]
 
 [dependencies]
 cargo-platform = "0.3"
